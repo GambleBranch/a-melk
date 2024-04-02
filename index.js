@@ -1,9 +1,9 @@
 // VERIFICATION
 
 function propmptCode() {
-  let code = btoa(window.prompt('Geef Uw code in:'))
+  let code = btoa(window.prompt('Geef Uw code in:').toLowerCase())
   if (code === '') { alert('Gelieve een code in te geven.'); propmptCode() }
-  else if (code !== 'YzhpZTdiaXE=') { alert('Gelieve de code te gebruiken die U terugvindt in Uw uitgave van A-melk.'); propmptCode() }
+  else if (code !== 'bGV2ZSBkZSBoZWlsaWdlIGtvZQ==') { alert('Gelieve de code te gebruiken die U terugvindt in Uw uitgave van A-melk.'); propmptCode() }
   else { document.getElementById('interface-container').style.display = ''; localStorage.setItem('access', '1'); prompt = function() {} }
 }
 
