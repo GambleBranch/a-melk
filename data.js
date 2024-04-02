@@ -82,20 +82,6 @@ const answers = [
   [[{i:10,v:3}, {i:3,v:3}], [{i:5,v:5}], [{i:3,v:5}], [{i:8,v:5}]]
 ]
 
-/*
-[["Faseur"], ["De Paepe"], ["Bovendaerde"], ["De Schrijver"]],
-[["De Schrijver"], ["Van Liefde", "Wynant"], ["Brabant"], ["Dutordoir", "Codde"]],
-[["Wynant", "Bovendaerde", "Brabant"], ["De Schrijver"], ["Faseur", "Codde"], ["De Paepe", "Van Ovenberghe"]],
-[["Wynant"], ["Codde"], ["Bovendaerde", "Van Ovenberghe"], ["Bouckenooghe"]],
-[["Faseur"], ["Bovendaerde"], ["Dutordoir"], ["Van Liefde"]],
-[["Van Ovenberghe"], ["Bouckenooghe"], ["Van Liefde", "De Paepe"], ["Faseur"]],
-[["Dutordoir"], ["Bouckenooghe", "Bovendaerde"], ["De Schrijver", "Brabant"], ["De Paepe"]],
-[["Faseur"], ["De Paepe"], ["Van Ovenberghe", "Wynant", "Van Liefde"], ["Codde", "De Schrijver", "Brabant", "Bouckenooghe"]],
-[["Faseur"], ["Bovendaerde", "Bouckenooghe"], ["Bouckenooghe"], ["Van Liefde"]],
-[["Codde", "De Paepe"], ["Wynant", "Van Liefde", "Dutordoir"], ["Bovendaerde"], ["Faseur", "Brabant"]],
-[["Dutordoir", "De Paepe"], ["Van Ovenberghe"], ["De Paepe"], ["De Schrijver"]]
-*/
-
 const teachers = [
   {
     epithet: 'de enige echte mathematofiel',
